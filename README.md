@@ -23,6 +23,5 @@ You can test, modify, and run this circuit interactively directly in your browse
 4. **Cloud Publish:** Utilizing a `PubSubClient` configuration, the serialized network packets are dispatched to distinct topic nodes (`ameliabelanda/weather/...`) hosted on the HiveMQ broker, allowing any remote web clients to instantly consume real-time sensor streams.
 
 ## 📂 Repository Contents
-- First, open the .zip folder
 - `sketch.ino` - Core embedded C++ production code containing connection-loss recovery routines, memory management, and hardware peripherals initialization.
 - `diagram.json` - Virtual schematic blueprint mapped out for the Wokwi execution engine.
